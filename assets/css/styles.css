@@ -167,6 +167,18 @@ img {
   align-items: center;
 }
 
+.nav__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white !important;
+}
+
+.nav__logo > img {
+  width: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .nav__menu {
     position: fixed;
@@ -282,8 +294,8 @@ img {
 }
 
 .home__img {
-  width: 1000px;
-  justify-self: center;
+  width: 100%;
+  height: auto;
 }
 
 /*========== BUTTONS ==========*/
@@ -577,6 +589,7 @@ footer {
 
   .home__container {
     height: 100vh;
+    display: flex;
     justify-items: center;
   }
 
@@ -594,7 +607,6 @@ footer {
   }
   .menu__img {
     width: 130px;
-    -webkit-filter: invert(100%) sepia(0%) saturate(7444%) hue-rotate(267deg) brightness(104%) contrast(111%);
 }
 
   .app__store {
@@ -609,7 +621,8 @@ footer {
   }
 
   .home__img {
-    width: 500px;
+    width: 100%;
+    height: auto;
   }
 
   .about__container,

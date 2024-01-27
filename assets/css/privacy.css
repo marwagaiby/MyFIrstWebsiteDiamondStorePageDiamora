@@ -278,26 +278,9 @@ a {
 
 .main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 20px 0 20px 0;
+    gap: 20px;
+    padding: 20px;
 }
 
-.histoire {
-    display: flex;
-    gap: 50px;
-}
-
-.histoire-image {
-    width: 50%;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.historique {
-    font-weight: bold;
-}
