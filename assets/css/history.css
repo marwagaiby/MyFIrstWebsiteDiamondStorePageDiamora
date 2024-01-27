@@ -1,0 +1,35 @@
+.histoire{
+  display: flex;
+
+}
+.histo{  width: 400px;
+  border-radius: .5rem;
+  justify-self: center;
+
+}
+.historique{
+  text-align: center;
+  text-decoration: dashed;
+  justify-content: center;
+}
+.histo{
+}
+.histoi{
+    height: 600px;
+}
+.hist{
+    width: 7000px;
+    height:600px ;
+}
+#historia{
+    background-color: black;
+}
+.historique{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: lighter;
+    font-family: ;
+}
+.titlee{
+    color:aliceblue;
+}
