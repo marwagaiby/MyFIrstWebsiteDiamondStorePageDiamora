@@ -379,7 +379,7 @@ img {
 /*========== MENU ==========*/
 .l-main {
 }
-#menu {
+#collection {
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
   border-radius: 10px;
@@ -391,7 +391,7 @@ img {
   margin-top: 100px;
 }
 
-#menu > .section-subtitle {
+#collection > .section-subtitle {
   color: black;
 }
 .menu__container {
