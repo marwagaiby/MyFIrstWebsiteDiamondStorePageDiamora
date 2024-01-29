@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/startlight_sparkle.css" />
+    <link rel="stylesheet" href="assets/css/celestial_brilliance.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -11,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Startlight Sparkle</title>
+    <title>Celestial Brilliance</title>
   </head>
   <body>
     <a href="#" class="scrolltop" id="scroll-top">
@@ -35,10 +35,10 @@
     <main class="main">
       <section class="main__section">
         <div class="images">
-          <img src="assets/img/2diamond 1.jpg" alt="" />
-          <img src="assets/img/2diamond 2.jpg" alt="" />
-          <img src="assets/img/2diamond 3.jpg" alt="" />
-          <img src="assets/img/2diamond 4.jpg" alt="" />
+          <img src="assets/img/celestial Brilliance1.jpg" alt="" />
+          <img src="assets/img/celestial Brilliance2.jpg" alt="" />
+          <img src="assets/img/celestial Brilliance3.jpg" alt="" />
+          <img src="assets/img/celestial Brilliance4.jpg" alt="" />
         </div>
         <div class="product__info">
           <h2 class="title">
@@ -46,7 +46,7 @@
             Diamond Band
           </h2>
           <p class="price">Prix: 50000DH</p>
-          <button class="buy__button"><a href="achetter.html">Achetter</a></button>
+          <button class="buy__button">Achetter</button>
 
           <h4 class="description__title">Description & Details</h4>
           <p class="description">
