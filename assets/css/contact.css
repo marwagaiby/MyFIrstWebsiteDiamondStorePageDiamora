@@ -224,10 +224,10 @@ a {
 .footer section bd-container {
 }
 .footer {
+  margin: auto;
     width: 100%;
     display: flex;
     flex-direction: column; 
-    margin: auto;
 }
 .footer__container {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -302,6 +302,63 @@ a {
 .historique {
     font-weight: bold;
 }
-.titlee{
-  color: #ffffff;
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #080000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 30px;
+  max-width: 600px;
+  margin: 70px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
 }

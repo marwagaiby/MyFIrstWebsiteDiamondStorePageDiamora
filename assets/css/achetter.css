@@ -286,7 +286,79 @@ a {
 }
 
 .main > h1, h2 {
-  color: white;
+  color: rgb(133, 120, 120);
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="%231e4466" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 15.707l-7.146-7.147 1.414-1.414L10 12.88l5.732-5.734 1.414 1.414L10 15.707z"/></svg>') no-repeat right 10px center;
+  background-size: 14px;
+}
+
+button[type="submit"] {
+  background-color: #01070f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.card_extra_info{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card_extra_info > div {
+  width: 50%;
+}
 
 
 

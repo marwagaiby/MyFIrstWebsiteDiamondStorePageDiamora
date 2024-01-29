@@ -307,6 +307,9 @@ a {
 }
 
 .buy__button {
+  display: block;
+  background-color: white;
+  text-align: center;
   font-weight: bold;
   margin-top: 20px;
   color: #302d2d;
