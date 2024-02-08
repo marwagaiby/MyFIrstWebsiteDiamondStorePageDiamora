@@ -394,3 +394,12 @@ p {
 .thanks{
     width: 170px;
 }
+.thanks {
+  animation: appear 3s ease-in-out forwards;
+  -webkit-animation: appear 3s ease-in-out forwards;
+}
+
+@keyframes appear {
+  0%   {opacity: 0%; margin-top: 100px;}
+  100% {opacity: 100% ; margin-top: 0px;}
+}

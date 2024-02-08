@@ -386,6 +386,15 @@ button[type="submit"]:hover {
   opacity: 0.7;
 }
 
+.container {
+  animation: appear 3s ease-in-out forwards;
+  -webkit-animation: appear 3s ease-in-out forwards;
+}
+
+@keyframes appear {
+  0%   {opacity: 0%; }
+  100% {opacity: 100% ; }
+}
 
 
 

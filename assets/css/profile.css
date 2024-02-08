@@ -1,5 +1,4 @@
 
-
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
@@ -225,10 +224,10 @@ a {
 .footer section bd-container {
 }
 .footer {
-  margin: auto;
     width: 100%;
     display: flex;
     flex-direction: column; 
+    margin: auto;
 }
 .footer__container {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -280,148 +279,74 @@ a {
 
 .main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 20px;
+    padding: 100px;
+}
+
+.main > h1, h2 {
+  color: white;
+}
+
+
+
+.profile__container {
+    width: 80%;
+    margin: 0 auto;
     padding: 20px;
 }
 
-.main__section {
-  display: flex;
-  position: relative;
+h1 {
+    text-align: center;
+    color: #333;
 }
 
-.images > img {
-  padding: 10px;
-  height: 400px;
-  width: fit-content;
-}
-
-.images {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: fit-content;
-}
-
-@media screen and (max-width: 1500px) {
-  .main__section {
+.profil-info {
     display: flex;
-    position: relative;
-  }
-  
-  .images > img {
-    padding: 10px;
-    height: 300px;
     width: fit-content;
-  }
-  
-  .images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: fit-content;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .images {
-    display: flex;
-    flex-direction: column;
+    margin: auto;
+    gap: 40px;
     justify-content: center;
     align-items: center;
-  }
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  .main__section {
+.profil-info > img {
+    width: auto;
+    height: 150px;
+    border-radius: 20px;
+    margin-right: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.info {
     display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .images > img {
-    padding: 10px;
-    height: 400px;
-    width: fit-content;
-  }
-}
-
-.product__info {
-  position: sticky;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.buy__button {
-  display: block;
-  background-color: white;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 20px;
-  color: #302d2d;
-  padding: 10px;
-  border: 1px solid black;
-  transition: 0.5s;
-  cursor: pointer;
-  border-radius: 4px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-}
-
-.buy__button:hover {
-  background-color: white;
-  opacity: 0.7;
-}
-
-.product__info > .title {
-  color: white;
-}
-
-.product__info > .price {
-  font-weight: bold;
-}
-
-.product__info > h4 {
-  color: white;
-}
-
-.reviews__container {
-  display: flex;
-  gap: 10px;
-  overflow-x: hidden;
-  flex-direction: column;
-}
-
-.reviews__container > .review {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-
-}
-
-.reviews__container > .review > .title {
-  color: white;
-  opacity: 0.7;
-}
-.reviews__container > .review > .title > p {
-  text-overflow: ellipsis;
-}
-.reviews__container > .review > .content {
-  text-overflow: ellipsis;
+    gap: 40px;
 }
 
 
-
-.review > .title > div > i {
-  color: white;
+.info > p {
+    margin: 5px 0;
 }
-.main__section {
+
+.info > p > strong {
+    font-weight: bold;
+}
+
+.profile__container {
   animation: appear 3s ease-in-out forwards;
   -webkit-animation: appear 3s ease-in-out forwards;
 }
 
 @keyframes appear {
-  0%   {opacity: 0%; }
-  100% {opacity: 100% ; }
+  0%   {opacity: 0%;}
+  100% {opacity: 100%;}
 }

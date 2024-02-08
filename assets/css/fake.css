@@ -598,11 +598,17 @@ footer {
     margin-top: var(--mb-6);
   }
 
+  .bd-grid {
+    display: grid;
+  }
+
   .menu__container {
     grid-template-columns: repeat(3, 210px);
     column-gap: 4rem;
     justify-content: center;
   }
+
+  
 
   @media screen and (max-width: 992px)  {
     .menu__container {
@@ -644,4 +650,23 @@ footer {
   .home__container {
     height: 640px;
   }
+}
+.user_profile{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.home {
+  animation: appear 3s ease-in-out forwards;
+  -webkit-animation: appear 3s ease-in-out forwards;
+}
+
+@keyframes appear {
+  0%   {opacity: 0%; margin-top: 100px;}
+  100% {opacity: 100% ; margin-top: 0px;}
 }

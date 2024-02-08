@@ -478,6 +478,11 @@ img {
 /*========== FOOTER ==========*/
 .footer section bd-container {
 }
+
+.bd-grid{
+    display: grid;
+}
+
 footer {
 
         margin: auto;
@@ -652,16 +657,37 @@ footer {
   }
 }
 
-.login-container {
-    max-width: 400px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-    text-align: center;
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    overflow: hidden;
+}
+
+.main__section {
 
 }
+
+.login-container {
+    width: 70vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 40px;
+    border: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.login-container > form {
+    width: 50%;
+    margin: auto;
+}
+
+
 
 h2 {
     color: #f382e7;
@@ -697,4 +723,14 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #e594ee;
+}
+
+@keyframes appear {
+  0%   {opacity: 0%;}
+  100% {opacity: 100% ;}
+}
+
+.main {
+  animation: appear 1s forwards ease-in;
+  -webkit-animation: appear 1s forwards ease-in;
 }

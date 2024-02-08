@@ -7,7 +7,7 @@
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/login.css" />
+    <link rel="stylesheet" href="assets/css/profile.css" />
     <title>Diamora</title>
   </head>
   <body>
@@ -17,34 +17,44 @@
 
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
-      <nav class="nav bd-container">
-        <a href="/" class="nav__logo">
-          <img src="assets/img/diamond-logo.svg" /> Diamora</a
-        >
-
-
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
-
-    <!-- MAIN -->
-    <main class="main">
-      <section class="main__section">
-        <div class="login-container">
-          <h2>Connexion</h2>
-          <form action="fake.html" method="get">
-            <div class="form-group">
-              <label for="email">Email :</label>
-              <input type="email" id="email" name="email" required />
+        <nav class="nav bd-container">
+          <a href="/fake.html#collection" class="nav__logo"
+            ><img src="assets/img/back.svg" />Diamora</a
+          >
+  
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list"></ul>
+          </div>
+  
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+          </div>
+        </nav>
+      </header>
+    <main>
+      <section>
+        <div class="profile__container">
+          <h1>Profil Utilisateur</h1>
+          <div class="profil-info">
+            <img src="assets/img/user.jpg" alt="Avatar Utilisateur" />
+            <div class="info">
+              <div class="info_labels">
+                  <p><strong>Nom d'utilisateur  :</strong></p>
+                  <p><strong>Nom                :</strong></p>
+                  <p><strong>Email              :</strong></p>
+                  <p><strong>Niveau de membre   :</strong></p>
+                  <p><strong>Date d'inscription :</strong></p>
+              </div>
+              <div class="info_data">
+                <p>cutiepie</p>
+                <p>Marwa Gaiby<p>
+                <p>marwagaiby@gmail.com</p>
+                <p>Pro</p>
+                <p>2 Janvier 2024</p>
             </div>
-            <div class="form-group">
-              <label for="password">Mot de passe :</label>
-              <input type="password" id="password" name="password" required />
+
             </div>
-            <button type="submit">Se connecter</button>
-          </form>
+          </div>
         </div>
       </section>
     </main>
